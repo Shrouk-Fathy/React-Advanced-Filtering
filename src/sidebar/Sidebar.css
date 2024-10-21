@@ -1,0 +1,27 @@
+.sidebar{
+    width: 20%;
+    border-right: #eee solid 2px;
+    height: 100vh;
+    position: fixed;
+    top: 88px;
+    left: 0;
+    z-index: 9999;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+.sidebar h2{
+    margin: auto;
+    width: 30px;
+}
+.sidebar > div > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    border-bottom: 2px solid #ccc;
+}

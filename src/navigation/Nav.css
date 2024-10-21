@@ -1,0 +1,33 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    border-bottom: 2px solid #eee;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: #fff;
+    overflow: hidden;
+}
+input{
+    position: relative;
+    padding: 12px;
+    border-radius: 20px;
+    border: none;
+    margin-right: 20px;
+    outline: none;
+    background-color: #f7f6f6;
+    width: 14rem;
+}
+input::placeholder{
+    text-indent: 10px;
+}
+.nav-icons{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 2rem;
+    color: rgb(97, 97, 97);
+}

@@ -1,0 +1,36 @@
+.card-container{
+    width: 80%;
+    position: absolute;
+    right: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(200px , 1fr));
+    grid-gap: 14px;
+    padding: 40px;
+}
+.card{
+    margin-top: 1rem;
+    width: 200px;
+    padding: 40px 20px;
+}
+.card-title{
+    font-size: 1.3rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.card-reviews{
+    color: rgb(223, 203, 87);
+    span{
+        color: #454444;
+        margin-left: 15px;
+    }
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    .del-price{
+        color: #6c6c6c;
+        margin-right: 5px;
+    }
+}

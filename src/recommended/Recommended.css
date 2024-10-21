@@ -1,0 +1,15 @@
+.recommended-section{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    /* margin: auto; */
+    margin-left: 35%;
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 100px;
+    position: sticky;
+    top: 0px;
+    right: 0;
+}

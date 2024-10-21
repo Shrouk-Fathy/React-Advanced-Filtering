@@ -1,0 +1,35 @@
+.sidebar-label-container{
+    width: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select:none;
+    user-select: none;
+    
+}
+.sidebar-label-container input{
+    position: absolute;
+    right: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+.checkmark{
+    margin-right: 5px;
+    height: 15px;
+    width: 15px;
+    background-color: #eee;
+    -webkit-border-radius:50% ;
+    -moz-border-radius:50% ;
+    -ms-border-radius:50% ;
+    border-radius:50% ;
+}
+.sidebar-label-container:hover input~.checkmark{
+    background-color: #ccc;
+}
+.sidebar-label-container input:checked ~.checkmark{
+    background-color: #2196f3;
+}
